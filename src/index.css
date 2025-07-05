@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* custom tailtwind properties  */
+@theme {
+  --color-boa-blue: #254375; /* jsut for reference on how to add colors  */
+
+  --font-weight-normal: 500; /* already the defualt font weight*/
+}
